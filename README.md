@@ -49,3 +49,25 @@ Therefore, these technologies must be installed on your system. Simply for this;
 * Terminal2: -- Kafka Broker
 ```bin/kafka-server-start.sh config/server.properties```
 
+* Terminal 3 -- Kafka Config
+Create a topic: ```bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic trends```
+
+* Terminal3 --Hadoop 
+```hdfs namenode -format```
+```start-dfs.sh```
+
+* Terminal 4 -- Hive Metastore
+```hive --service metastor```
+
+* Terminal 5 -- Hive
+```hive```
+
+!!! Set up a virtual environment for Python codes. Download packages from Requirements.txt to this environment
+
+* Terminal 6 -- Stream Producer
+```python3 producer.py```
+
+* Terminal 7 -- Stream Consumer + Spark Transformer
+```spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.1 transformer.py```
+
+
