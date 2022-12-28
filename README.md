@@ -43,3 +43,9 @@ Therefore, these technologies must be installed on your system. Simply for this;
 
 ## Run Code
 
+* Terminal 1: -- Zookeeper
+```bin/zookeeper-server-start.sh config/zookeeper.properties```
+
+* Terminal2: -- Kafka Broker
+```bin/kafka-server-start.sh config/server.properties```
+
