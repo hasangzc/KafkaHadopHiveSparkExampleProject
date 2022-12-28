@@ -9,8 +9,12 @@ About Data:
   
   Features
     - title: Search title
+    
     - subtitle: subtitle about search
+    
     - source: source of search
+    
     - time_published
+    
     - searches: Number of search about this title
     
