@@ -6,6 +6,7 @@ Get data. Submit a Kafka topic. Get it with Spark from Topic. Save to HDFS and A
 
 About Data:
   Get today's Google trending search results.
+  
   Features
     - title: Search title
     - subtitle: subtitle about search
