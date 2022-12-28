@@ -8,6 +8,7 @@ About Data:
   Get today's Google trending search results.
   
   Features
+    
     - title: Search title
     
     - subtitle: subtitle about search
