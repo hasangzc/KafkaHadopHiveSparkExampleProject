@@ -34,7 +34,6 @@ ftfy==6.1.1
 funcy==1.17
 future==0.18.2
 gitdb==4.0.10
-GitPython==3.1.29
 grandalf==0.6
 idna==3.4
 importlib-metadata==5.1.0
