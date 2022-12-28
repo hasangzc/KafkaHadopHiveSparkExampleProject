@@ -3,6 +3,7 @@ Get data. Submit a Kafka topic. Get it with Spark from Topic. Save to HDFS and A
 
 ## Project Steps;
 - Get data from https://trends.google.com/trends/trendingsearches/daily?geo= web site 
+
 About Data:
   Get today's Google trending search results.
   Features
